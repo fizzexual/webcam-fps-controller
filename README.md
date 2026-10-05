@@ -1,10 +1,14 @@
-# 🎥 Virtual Webcam FPS Controller
+# 🎥 Virtual Webcam FPS Controller 🍂
 
 Control your webcam's frame rate in real-time for Discord, Zoom, Teams, and any video app.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-windows-lightgrey.svg)
+
+## About
+
+A single Python script (about 150 lines) for Windows users who want to send a lower or fixed webcam frame rate to Discord, Zoom or Teams, for example to save bandwidth or CPU. It reads the webcam with OpenCV and re-publishes it through the OBS Virtual Camera driver (via pyvirtualcam) at the FPS you set from the keyboard. It is a small working utility with no packaged release; `run.bat` is the launcher.
 
 ## ✨ Features
 
